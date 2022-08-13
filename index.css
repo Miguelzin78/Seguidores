@@ -109,6 +109,24 @@ p {
 }
 
 button {
+  border: none;
+  background-color: blueviolet;
+  color: rgb(255, 253, 253);
+  transition: filter .2s;
+}
+
+
+/* pseudo-class :hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+input, button {
+  display: block;
+  width: 90%;
+
+  padding: 20px;
   font-size: 20px;
-  margin-top: 5px;
+  border-radius: 4px;
 }
